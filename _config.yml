@@ -1,1 +1,14 @@
-theme: jekyll-theme-slate
+title: Osobný profil
+
+author: Jana Vrabľová 
+pub_year: 2018
+githb_username: v-jana
+
+defaults: 
+
+ - scope: 
+    path: ""
+   values: 
+    layout: default
+
+markdown: kramdown

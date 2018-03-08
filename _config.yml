@@ -12,3 +12,4 @@ defaults:
     layout: default
 
 markdown: kramdown
+theme: minima

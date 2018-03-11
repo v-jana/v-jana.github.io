@@ -1,15 +1,29 @@
-title: Osobný profil
+title: Developer portfolio
 
 author: Jana Vrabľová 
 pub_year: 2018
 githb_username: v-jana
 
-defaults: 
+collections: 
+    d_projects: 
+        output: true
 
+        
+defaults: 
  - scope: 
     path: ""
    values: 
     layout: default
+    
+defaults: 
+ - scope: 
+    path: ""
+    type: "d_projects"
+   values: 
+    layout: d_projects
+
+plgins: 
+ - emoji_for_jekyll
+
 
 markdown: kramdown
-theme: minima

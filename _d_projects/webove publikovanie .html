@@ -1,0 +1,42 @@
+---
+layout: d_projects
+title: Web publishing
+year: 3.
+programing_language: 
+github_repo: https://github.com/v-jana/v-jana.github.io
+---
+<article>
+<h3>Dokumentácia k prvému zadaniu </h3>
+Úlohou zadania bolo vytvorť webovú stránku pomocou Gihub Pages a nástroja Jekyll. <br>
+V zadaní som použila naprklad premenné: 
+<ul>
+<li>site.author - použité v about.html</li> 
+<li>content - použité vo viacerých súboroch</li> 
+<li>site.github_username - použité vo footer.html</li> 
+<li>page.year - použité v d_projects.html</li> 
+<li>page.title - použité v cv.html</li> 
+</ul>
+
+Filtre a tagy: 
+<ul>
+<li>site.time | %d %m %Y </li> 
+<li>page.title | downcase </li> 
+<li>% include footer.html %</li> 
+<li>page.title | escape </li> 
+<li>for cyklus v projects.html</li> 
+<li>...</li> 
+</ul>
+
+Layouty: 
+<ul>
+<li>default.html - som využila v projekte najčastejšie  </li> 
+<li>d_projects.html je layout pre kolekciu projektov </li> 
+<li>layout2.html v contact.html</li> 
+</ul>
+
+V zadaní som tiež vytvorila collections s projektami. Pre každý z projektov som uviedla spoločné <br> 
+premenné ako sú názov predmetu, ročník, programovací jazyk, a git repozitár s zdrojovými kódmi. <br>
+Plugin som v zadaní nepoužila. 
+
+
+</article>

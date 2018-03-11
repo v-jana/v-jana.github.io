@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article >
+	<h4> Project from subject: {{page.title | downcase }} </h4>
+	
+	<ul>
+		<li>
+			Year of study: {{page.year}}
+		</li>
+		<li>
+			 Programing languages: {{page.programing_language}}
+		</li>
+		<li>
+			Source code on github <a href="{{page.github_repo}}">there</a>.
+		</li>
+	</ul>	
+
+	<div>
+	{{ content }}
+	</div>
+	
+</article>
